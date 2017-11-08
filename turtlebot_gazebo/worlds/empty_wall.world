@@ -31,35 +31,7 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <state world_name="default">
-      <sim_time>71 96000000</sim_time>
-      <real_time>71 409800987</real_time>
-      <wall_time>1472918387 259423217</wall_time>
-      <model name="brick_box_3x1x3">
-      <pose frame="">3 0 0 0 0 -1.66312</pose>
-      <link name="chassis">
-        <pose frame="">3 0 1.5 0 0 -1.66312</pose>
-        <velocity>0 0 0 0 0 0</velocity>
-        <acceleration>0 0 0 0 -0 0</acceleration>
-        <wrench>0 0 0 0 -0 0</wrench>
-      </link>
-    </model><model name="brick_box_3x1x3">
-      <pose frame="">3 0 0 0 0 -1.66312</pose>
-      <link name="chassis">
-        <pose frame="">3 0 1.5 0 0 -1.66312</pose>
-        <velocity>0 0 0 0 0 0</velocity>
-        <acceleration>0 0 0 0 -0 0</acceleration>
-        <wrench>0 0 0 0 -0 0</wrench>
-      </link>
-    </model><model name="ground_plane">
-      <pose frame="">0 0 0 0 -0 0</pose>
-      <link name="link">
-        <pose frame="">0 0 0 0 -0 0</pose>
-        <velocity>0 0 0 0 0 0</velocity>
-        <acceleration>0 0 0 0 -0 0</acceleration>
-        <wrench>0 0 0 0 -0 0</wrench>
-      </link>
-    </model></state>
+
     <gui fullscreen="0">
       <camera name="user_camera">
         <pose>7.68056 -12.867 4.73015 0 0.263643 1.96419</pose>
@@ -69,7 +41,8 @@
   <model name="brick_box_3x1x3">
     <static>1</static>
     <link name="chassis">
-      <pose frame="">0 0 1.5 0 -0 0</pose>
+      
+      <pose frame="">3 0 1.5 0 0 -1.5708</pose>
       <collision name="collision">
         <geometry>
           <box>
@@ -110,8 +83,11 @@
       <kinematic>0</kinematic>
       <gravity>1</gravity>
     </link>
-    <pose frame="">3 0 0 0 -0 0</pose>
-  </model><model name="ground_plane">
+    
+  </model>
+
+
+    <model name="ground_plane">
     <static>1</static>
     <link name="link">
       <collision name="collision">
