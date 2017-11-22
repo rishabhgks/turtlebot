@@ -124,8 +124,8 @@
         <gravity>1</gravity>
       </link>
       <pose>3 0 0 0 -0 0</pose>
-    </model>-->
-    <state world_name='default'>
+    </model> -->
+    <!-- <state world_name='default'>
       <sim_time>71 96000000</sim_time>
       <real_time>71 409800987</real_time>
       <wall_time>1472918387 259423217</wall_time>
@@ -147,7 +147,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-    </state>
+    </state> -->
     <gui fullscreen='0'>
       <camera name='user_camera'>
         <pose>7.68056 -12.867 4.73015 0 0.263643 1.96419</pose>
