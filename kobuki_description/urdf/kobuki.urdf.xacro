@@ -240,7 +240,7 @@
 	    <visual>
 		    <origin xyz="0 0 0" rpy="0 0 0"/>
 		    <geometry>
-			    <mesh filename="package://hokuyo/meshes/hokuyo.dae"/>
+			    <mesh filename="package://gazebo_plugins/test/multi_robot_scenario/meshes/laser/hokuyo.dae"/>
 		    </geometry>
 	    </visual>
     </link>
