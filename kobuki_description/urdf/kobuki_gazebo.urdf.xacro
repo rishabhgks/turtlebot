@@ -183,6 +183,7 @@
 	    <odometryFrame>odom</odometryFrame>
 	    <robotBaseFrame>base_footprint</robotBaseFrame>
 	    <publishWheelJointState>true</publishWheelJointState>
+	    <legacyMode>true</legacyMode>
 	  </plugin>
 	</gazebo>
 	
