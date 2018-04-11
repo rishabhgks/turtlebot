@@ -19,6 +19,7 @@
     <arg name="gui" value="$(arg gui)"/>
     <arg name="headless" value="$(arg headless)"/>
     <arg name="debug" value="$(arg debug)"/>
+    <arg name="verbose" value="true" />
   </include>
   
   <include file="$(find turtlebot_gazebo)/launch/includes/$(arg base).launch.xml">
