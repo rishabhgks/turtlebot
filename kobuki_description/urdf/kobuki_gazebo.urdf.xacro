@@ -184,6 +184,12 @@
 	    <robotBaseFrame>base_footprint</robotBaseFrame>
 	    <publishWheelJointState>true</publishWheelJointState>
 	    <legacyMode>true</legacyMode>
+	    <rosDebugLevel>na</rosDebugLevel>
+	    <publishWheelTF>false</publishWheelTF>
+        <wheelAcceleration>0</wheelAcceleration>
+        <wheelTorque>5</wheelTorque>
+        <odometrySource>world</odometrySource>
+        <publishTf>1</publishTf>
 	  </plugin>
 	</gazebo>
 	
